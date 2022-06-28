@@ -2,7 +2,7 @@ $(document).ready(function () {
     loadVotes();
     average();
 })
-
+console.log('lets try to hit this')
 function loadVotes() {
     $.get("challenge/8/votes/", function (votes) {
             var totalVotes = 0;

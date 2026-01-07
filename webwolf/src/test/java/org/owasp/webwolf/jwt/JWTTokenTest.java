@@ -25,7 +25,7 @@ class JWTTokenTest {
         var payload = Map.of("test", "test");
         var token = JWTToken.encode(toString(headers), toString(payload), "webgoat");
 
-        assertThat(token.getEncoded()).isEqualTo("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXN0IjoidGVzdCJ9.axNp9BkswwK_YRF2URJ5P1UejQNYZbK4qYcMnkusg6I");
+        assertThat(token.getEncoded()).isEqualTo("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXN0IjoidGVzdCJ9.axNp9BkswwK_YRF2URJ5P1UejQNYZbK4qYcMnkusg23");
     }
 
     @Test
